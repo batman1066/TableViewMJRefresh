@@ -36,7 +36,6 @@
 		8C3434B41E66D90B003D21DE /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3434A01E66D90B003D21DE /* UIView+MJExtension.m */; };
 		8C3434BB1E66D91E003D21DE /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3434B61E66D91E003D21DE /* MyTableViewController.m */; };
 		8C3434BC1E66D91E003D21DE /* MyTableViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3434B81E66D91E003D21DE /* MyTableViewController2.m */; };
-		8C3434BD1E66D91E003D21DE /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3434BA1E66D91E003D21DE /* Test.m */; };
 		8C3434BF1E66D955003D21DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3434BE1E66D955003D21DE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -117,8 +116,6 @@
 		8C3434B61E66D91E003D21DE /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 		8C3434B71E66D91E003D21DE /* MyTableViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController2.h; sourceTree = "<group>"; };
 		8C3434B81E66D91E003D21DE /* MyTableViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController2.m; sourceTree = "<group>"; };
-		8C3434B91E66D91E003D21DE /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		8C3434BA1E66D91E003D21DE /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		8C3434BE1E66D955003D21DE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,21 +167,19 @@
 		8C34343E1E66D8A3003D21DE /* TableViewMJRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				8C3434421E66D8A3003D21DE /* AppDelegate.h */,
+				8C3434431E66D8A3003D21DE /* AppDelegate.m */,
 				8C3434B51E66D91E003D21DE /* MyTableViewController.h */,
 				8C3434B61E66D91E003D21DE /* MyTableViewController.m */,
 				8C3434B71E66D91E003D21DE /* MyTableViewController2.h */,
 				8C3434B81E66D91E003D21DE /* MyTableViewController2.m */,
-				8C3434B91E66D91E003D21DE /* Test.h */,
-				8C3434BA1E66D91E003D21DE /* Test.m */,
-				8C3434721E66D90B003D21DE /* MJRefresh */,
-				8C3434421E66D8A3003D21DE /* AppDelegate.h */,
-				8C3434431E66D8A3003D21DE /* AppDelegate.m */,
 				8C3434451E66D8A3003D21DE /* ViewController.h */,
 				8C3434461E66D8A3003D21DE /* ViewController.m */,
 				8C3434BE1E66D955003D21DE /* Main.storyboard */,
 				8C34344B1E66D8A4003D21DE /* Assets.xcassets */,
 				8C34344D1E66D8A4003D21DE /* LaunchScreen.storyboard */,
 				8C3434501E66D8A4003D21DE /* Info.plist */,
+				8C3434721E66D90B003D21DE /* MJRefresh */,
 				8C34343F1E66D8A3003D21DE /* Supporting Files */,
 			);
 			path = TableViewMJRefresh;
@@ -458,7 +453,6 @@
 				8C3434A31E66D90B003D21DE /* MJRefreshComponent.m in Sources */,
 				8C3434A51E66D90B003D21DE /* MJRefreshHeader.m in Sources */,
 				8C3434B41E66D90B003D21DE /* UIView+MJExtension.m in Sources */,
-				8C3434BD1E66D91E003D21DE /* Test.m in Sources */,
 				8C3434AB1E66D90B003D21DE /* MJRefreshBackStateFooter.m in Sources */,
 				8C3434A11E66D90B003D21DE /* MJRefreshAutoFooter.m in Sources */,
 				8C3434B31E66D90B003D21DE /* UIScrollView+MJRefresh.m in Sources */,
@@ -700,6 +694,7 @@
 				8C34346B1E66D8A4003D21DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C34346C1E66D8A4003D21DE /* Build configuration list for PBXNativeTarget "TableViewMJRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -708,6 +703,7 @@
 				8C34346E1E66D8A4003D21DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C34346F1E66D8A4003D21DE /* Build configuration list for PBXNativeTarget "TableViewMJRefreshUITests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +712,7 @@
 				8C3434711E66D8A4003D21DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
